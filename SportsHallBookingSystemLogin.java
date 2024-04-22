@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SportsHallBookingSystem2 {
+public class SportsHallBookingSystemLogin {
     private boolean isUserRegistered = false; // Flag to simulate user registration
 
     public void login() {
@@ -76,7 +76,7 @@ public class SportsHallBookingSystem2 {
     }
 
     public static void main(String[] args) {
-        SportsHallBookingSystem2 system = new SportsHallBookingSystem2();
+        SportsHallBookingSystemLogin system = new SportsHallBookingSystemLogin();
         system.isUserRegistered = true; // Simulate user registration
         system.login();
     }
