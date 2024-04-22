@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SportsHallBookingSystem1 {
+public class SportsHallBookingSystemRegister {
     public void registerAccount() {
         // Pre-condition: The system is connected to a database.
         System.out.println("Welcome to UTM Sports Hall Booking System!");
@@ -30,7 +30,7 @@ public class SportsHallBookingSystem1 {
     }
 
     public static void main(String[] args) {
-        SportsHallBookingSystem1 system = new SportsHallBookingSystem1();
+        SportsHallBookingSystemRegister system = new SportsHallBookingSystemRegister();
         system.registerAccount();
     }
 }
