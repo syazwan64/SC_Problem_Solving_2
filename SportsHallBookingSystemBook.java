@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SportsHallBookingSystem3 {
+public class SportsHallBookingSystemBook {
     private boolean isUserRegistered = false;
     private boolean isUserLoggedIn = false;
 
@@ -45,7 +45,7 @@ public class SportsHallBookingSystem3 {
     }
 
     public static void main(String[] args) {
-        SportsHallBookingSystem3 system = new SportsHallBookingSystem3();
+        SportsHallBookingSystemBook system = new SportsHallBookingSystemBook();
         system.isUserRegistered = true; // Simulate user registration
         system.isUserLoggedIn = true; // Simulate user login
         system.bookCourt();
